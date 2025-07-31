@@ -1,0 +1,130 @@
+h1 { 
+    font-size: 50px;
+    text-align: center;
+    color: rgb(192, 141, 107);
+}
+
+p{
+    font-size:30px;
+    text-align: center;
+    color: beige;
+}
+
+h2{
+    color:rgb(173, 165, 139);
+    text-align: center;
+
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+    width: 80%; /* Ajuste a largura do vídeo conforme necessário */
+    max-width: 900px; /* Limite máximo de largura */
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
+#backgroud-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.9; /* Ajuste a transparência conforme desejado */
+    transform: translateY(0);
+    transition: transform 0.1s ease-out;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px; /* Espaço entre os itens */
+}
+
+ul.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu a {
+    display: block;
+    padding: 8px 16px;
+    background-color: #dddddd;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 4px;
+    position: static; /* Remove o fixed */
+}
+
+ul.menu a:hover {
+    background-color: rgb(122, 95, 83);
+}
+
+#github, #linkedin{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    color: bisque;
+    font-size: 30px;
+}
+
+#github:hover, #linkedin:hover {
+    color: rgb(192, 141, 107);
+}
+
+td{
+    color: bisque;
+    text-align: justify;
+}
+
+.contato-centro {
+    text-align: center;
+}
+
+.contato-centro table {
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+#btnEnviar{
+    background-color: #805136d7; /* Marrom */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnEnviar:hover {
+    background-color: #8051365e; /* Marrom mais escuro */
+}
+
+#txtNome, #txtEmail, #txtMensagem {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#sintese-video {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(150, 97, 62);
+    margin: 20px auto;
+    max-width: 1300px; /* Limite máximo de largura */
+    background-color: #cccc; /* Cor de fundo para destaque */
+    padding: 10px;
+}
